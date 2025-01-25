@@ -1,0 +1,63 @@
+
+On compile notre programme et on l'execute avec la commande suivante : make
+ Si ça marche pas on utilise : gcc -g -Wall Boites.c -lm -o boites && ./boites
+ 
+ une fois le programme exécuté vous aurez une première solution qui peut etre la plus optimale ou pas. Pour etre sur que ce soit la plus optimale laissez le programme tourner un moment.
+Vous pouvez aussi modifier les paramètre dans le ficher "projet_param.txt" en respectant le format (respectez les espaces etc...😅️).
+aussi pour interrompre le programme si jamais vous pensez que vous avez trouvé la meilleure solution vous pouvez faire "Ctrl+c". La solution sera affichée en haut du texte.
+ 
+ Un jeu d'essai : 
+ on prend le fichier ("projet_param.txt") qui contient les paramètres suivantes :
+ B: 7
+n: 30
+T: 1 4 2 3 1 3 2 2 2 3 3 7 1 4 2 3 1 3 2 2 2 3 3 7 1 4 2 3 1 3
+
+
+
+En gardant les paramètres, la solution optimale est la suivante:
+
+Meilleure solution après génération 380 :
+Solution :
+Objet 1 -> Boîte 1
+Objet 2 -> Boîte 2
+Objet 3 -> Boîte 3
+Objet 4 -> Boîte 4
+Objet 5 -> Boîte 1
+Objet 6 -> Boîte 5
+Objet 7 -> Boîte 5
+Objet 8 -> Boîte 6
+Objet 9 -> Boîte 5
+Objet 10 -> Boîte 7
+Objet 11 -> Boîte 2
+Objet 12 -> Boîte 8
+Objet 13 -> Boîte 9
+Objet 14 -> Boîte 10
+Objet 15 -> Boîte 11
+Objet 16 -> Boîte 6
+Objet 17 -> Boîte 1
+Objet 18 -> Boîte 11
+Objet 19 -> Boîte 3
+Objet 20 -> Boîte 9
+Objet 21 -> Boîte 3
+Objet 22 -> Boîte 7
+Objet 23 -> Boîte 10
+Objet 24 -> Boîte 12
+Objet 25 -> Boîte 7
+Objet 26 -> Boîte 4
+Objet 27 -> Boîte 6
+Objet 28 -> Boîte 9
+Objet 29 -> Boîte 11
+Objet 30 -> Boîte 1
+Validité : 12
+
+^C
+Interruption détectée (Ctrl+C) !
+Meilleure solution globale trouvée :
+La meilleure solution est la precedente
+
+
+
+
+
+
+
